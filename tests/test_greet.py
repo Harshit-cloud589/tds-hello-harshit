@@ -1,10 +1,14 @@
 import pytest
 
-from tds_hello_harshit import greet
+from tds_hello_harshit import greet, shout
 
 
 def test_default():
-    assert greet() == "Hello, world! — from tds-hello v0.1.1"
+    assert greet() == "Hello, world! — from tds-hello v0.2.0"
+
+
+def test_shout():
+    assert shout() == "HELLO, WORLD! — FROM TDS-HELLO V0.2.0"
 
 
 def test_custom_name():

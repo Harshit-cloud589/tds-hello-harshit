@@ -1,0 +1,6 @@
+[
+  "tests/test_greet.py::test_custom_name",
+  "tests/test_greet.py::test_default",
+  "tests/test_greet.py::test_invalid_type",
+  "tests/test_greet.py::test_shout"
+]
