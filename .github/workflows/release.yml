@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'       # v0.1.0, v1.2.3, ...
+      - "v*" # v0.1.0, v1.2.3, ...
 
 jobs:
   build:
@@ -52,7 +52,7 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: Publish
-        run: uv publish --index testpypi dist/*
+        run: uv publish --publish-url https://test.pypi.org/legacy/
         env:
           UV_PUBLISH_URL: https://test.pypi.org/legacy/
 
