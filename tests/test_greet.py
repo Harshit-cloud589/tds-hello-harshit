@@ -4,7 +4,7 @@ from tds_hello_harshit import greet
 
 
 def test_default():
-    assert greet() == "Hello, world! — from tds-hello v0.1.0"
+    assert greet() == "Hello, world! — from tds-hello v0.1.1"
 
 
 def test_custom_name():
